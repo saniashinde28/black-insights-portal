@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroCarousel from "@/components/HeroCarousel";
 import FeaturesSection from "@/components/FeaturesSection";
-import CaseStudyCarousel from "@/components/CaseStudyCarousel";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -35,9 +34,6 @@ const Index = () => {
           </Link>
         </div>
       </section>
-      
-      {/* Case Study Carousel */}
-      <CaseStudyCarousel />
       
       <Footer />
     </div>
